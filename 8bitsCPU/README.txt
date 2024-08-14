@@ -241,6 +241,8 @@ BIOS команды:
             ifl' AF, GR 
               tre'
                 end'
+              fls'
+                mvc ~loop~
         ```
 
         Вывод пикселя:
